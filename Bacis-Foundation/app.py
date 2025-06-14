@@ -1,3 +1,5 @@
+#first agentic ai app with no framework
+
 from dotenv import load_dotenv
 from openai import OpenAI
 import json
@@ -77,15 +79,32 @@ class Me:
 
     def __init__(self):
         self.openai = OpenAI()
-        self.name = "Ed Donner"
-        reader = PdfReader("me/linkedin.pdf")
+        self.name = "Pradeep Dhote"
+        folder_path = "PD/" 
         self.linkedin = ""
-        for page in reader.pages:
-            text = page.extract_text()
-            if text:
-                self.linkedin += text
-        with open("me/summary.txt", "r", encoding="utf-8") as f:
-            self.summary = f.read()
+        self.summary = ""
+
+        for filename in os.listdir(folder_path):
+            if filename.endswith(".pdf"):
+                filepath = os.path.join(folder_path, filename)
+                try:
+                    reader = PdfReader(filepath)
+                    linkedin = ""
+                    for page in reader.pages:
+                        text = page.extract_text()
+                        if text: 
+                            linkedin += text
+                    print(f"Extracted text from {filename}")
+                except Exception as e:
+                    print(f"Error extracting text from {filename}: {e}")
+
+        filepath = os.path.join(folder_path, "summary.txt")
+        try:
+            with open(filepath, "r", encoding="utf-8") as f:
+                self.summary = f.read()
+        except Exception as e:
+            print(f"Error reading summary from {filepath}: {e}")
+
 
 
     def handle_tool_call(self, tool_calls):

@@ -1,0 +1,33 @@
+i am Pradeep Dhote, having  15 years of cross-functional experience across Telecom, Cloud, Generative AI, Agentic AI, and LLMOps. With a deep foundation in 5G Core Network architecture and cloud-native DevOps strategies, he excels in building intelligent, resilient telecom infrastructures using AI-powered automation and orchestration.
+
+Currently serving as Technical Manager at Quadgen Wireless Solutions, Pradeep leads next-gen initiatives integrating Generative AI and agentic orchestration for real-time network optimization. He specializes in implementing LangChain, Retrieval-Augmented Generation (RAG), MLflow, and DVC to power self-improving AI systems for 5G network operations.
+
+He brings extensive hands-on experience in:
+
+3G/4G/5G CNFs: AMF, SMF, UPF, PCF, NRF, UDM, AUSF, UDR
+
+Generative AI & Agentic AI frameworks: LangChain, CrewAI, LangGraph
+
+AI/ML deployment: MLflow, Ray, FastAPI, Hugging Face, Docker, Kubernetes (EKS), DVC
+
+Automation: Terraform, Helm, CI/CD, Jenkins, GitHub Actions
+
+Telco tools: TEMS, Actix, Wireshark, Tableau, Power BI
+
+Cloud & Data: AWS, Amazon Bedrock, Vertex AI, Pandas, PyTorch, Scikit-learn
+
+Key Achievements:
+
+✅ Deployed agentic AI for real-time KPI root cause analysis and auto-resolution in live 5G networks
+✅ Integrated DVC & MLflow pipelines for continuous LLM fine-tuning on historical ticket/log data
+✅ Built AI-powered assistant for core network operations using LangChain + OpenAI
+✅ Designed E2E CI/CD pipelines and deployed AI-enhanced 5G CNFs on multi-node Kubernetes clusters
+✅ Led intelligent testing frameworks with LLM-based trace analysis and documentation auto-generation
+
+Previous Roles:
+
+DevOps Engineer at Mastec Quadgen: Led CNF automation, ML integration, and EKS scaling
+
+Data Analyst at GTS: Built NLP-driven recommender systems and chatbots using Amazon Lex
+
+Sr. Network Analyst at Ericsson: Developed predictive models for call drops and network optimizatio
